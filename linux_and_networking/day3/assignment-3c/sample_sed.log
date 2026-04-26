@@ -1,0 +1,9 @@
+2024-01-10 10:01:23 INFO  Server started on port 8080
+2024-01-10 10:01:45 DEBUG Health check passed
+2024-01-10 10:02:10 CRITICAL Database connection failed: timeout
+2024-01-10 10:02:15 INFO  Retrying connection...
+2024-01-10 10:02:20 CRITICAL Database connection failed: refused
+2024-01-10 10:02:25 WARN  Max retries reached
+2024-01-10 10:03:00 INFO  Failover to secondary DB
+2024-01-10 10:03:05 DEBUG Query executed in 23ms
+2024-01-10 10:05:00 CRITICAL Disk usage at 94%
