@@ -45,7 +45,7 @@ For Subnet A - there are 50 hosts so out of 62, 12 IPs will be wasted
 For Subnet B - 42 IPs will be wasted
 For Subnet C - 52 IPs will be wasted
 
-These subnets will work. But it is overkill for Subnet B and Subnet C. We can use  (Variable Length Subnet Mask) and have a smaller subnets for B and C such as 
+These subnets will work. But it is overkill for Subnet B and Subnet C. We can use VLSM (Variable Length Subnet Mask) and have a smaller subnets for B and C such as 
 /27 -> 30 Usable Hosts
 /28 -> 14 Usable Hosts
 
