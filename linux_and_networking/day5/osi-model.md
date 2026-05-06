@@ -75,7 +75,6 @@ Session termination
 Login session in a web app
 
 
-
 ### Layer 4 — Transport Layer
 Ensures end-to-end communication between applications
 
@@ -87,7 +86,11 @@ Port addressing
 
 #### Protocols:
 TCP (reliable)
-UDP (fast)
+![tcp segment](image.png)
+
+UDP (fast)s
+![UDP Header](image-1.png)
+
 
 HTTP/HTTPS uses TCP port 80/443
 
@@ -123,6 +126,7 @@ ARP (Address Resolution Protocol)
 Router finds MAC address using ARP
 
 
+![1778067225321](image/osi-model/1778067225321.png)
 
 ### Layer 1 — Physical Layer
 Transmits raw bits over physical medium
